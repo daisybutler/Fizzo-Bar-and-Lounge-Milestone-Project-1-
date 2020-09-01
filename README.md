@@ -1,39 +1,42 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Fizzo Bar and Lounge (Milestone Project 1)
 
-Welcome USER_NAME,
+A website for a bar and lounge which provides an upmarket dining experience with a relaxed yet classy feel. The aim of the website is to visually convey this type of vibe and produce a higher conversion rate of visits to table bookings.
+## UX
+The customer needs to find the process of navigating the site as simple as possible. Although a fundamental feature, this is not always to make a booking. Accessing menus or viewing the gallery are important parts of the process leading up to the conversion to a booking. Text should be minimal with a focus on stylish imagery to optimise the enjoyment of the site visit for the user.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+The owner's aim for the website is to secure table bookings via the website to increase revenue. The website will do this by a) making the booking process quick and simple for someone who wishes to book; b) selling the dining experience (classy, stylish, upmarket, relaxed) to a site visitor who is yet to make a decision to book.
+### User Stories:
+- As a potential customer, I want to access the menu to see what drinks and food are offered.
 
-## Gitpod Reminders
+- As potential customer, I want to view photos of the bar and lounge so I can see what the bar and lounge looks like.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- As a customer who wishes to make a booking, I want to access a straightforward process to book a table.
 
-`python3 -m http.server`
+- As a previous cumstomer - or one who has just completed a booking - I want to see that my continued interest in the service is valued by encouragement to follow on social media.
 
-A blue button should appear to click: *Make Public*,
+- As the owner of the site, I want to appeal to potential customers' desires and so that in their minds the value of the experience is greater than the cost.
 
-Another blue button should appear to click: *Open Browser*.
+## Features
+**Home:** must immediately set the tone of the bar for the user - stylish and a luxurious experience. Call to action (book) but various leads to gallery, social media if customer still needs to be 'sold'.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+**Menus:** one click access to PDFs of each menu available.
 
-A blue button should appear to click: *Make Public*,
+**Book:** one page form to allow customers to submit a booking request online so they can visit. All * fields are required to prevent an incomplete booking. Post-submit assures customer that their request as been received.
 
-Another blue button should appear to click: *Open Browser*.
+**Gallery:** displays product and service in a simple and clean format.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+**Contact:** caters for minority of site visitors who are there for something other than booking or browsing.
 
-## Updates Since The Instructional Video
+### Colours
+The proposed colour scheme for this project is a dominant colour of dark grey #616567 with accents of gold #d4af37 and a light grey/silver #e3e5e4. The concept of relative neutrality is to allow for vibrant and colourful images to be included in the project and contrast with this (e.g. cocktails).
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## Technologies Used
+[Bootstrap](https://getbootstrap.com/): to optimise and speed up the process of styling site with CSS.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+[Fontawesome](https://fontawesome.com/): provides useful icons for intutive user experience. 
+## Testing
+TBC
+## Deployments
+TBC
+## Credits
+TBC

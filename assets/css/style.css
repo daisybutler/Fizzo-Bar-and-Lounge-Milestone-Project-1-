@@ -2,9 +2,9 @@
 
 /* ---------------------------------------------------- Layout */
 .hero-image-container {
-    height: 80vh;
+    height: 90vh;
 
-    background: url("../images/hero-image.jpg") no-repeat center center fixed;
+    background: url("../images/hero-image.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -94,24 +94,31 @@
 #introduction h4{
     text-align: center;
     color: #d4af37;
-    font-family: "Josefin Sans", sans-serif;
-    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
 
-}
-
-.intro-side-left {
-    border-right: 4px solid #d4af37;
-}
-
-.intro-side-right {
-    border-left: 4px solid #d4af37;
 }
     
 
 /* ----------------------------------------------------- Gallery */
 
+.gallery-title {
+    background-color: #333333;
+}
+
+.gallery-title h2 {
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    color: #d4af37;
+    font-size: 60px;
+
+}
+
 .gallery {
-    padding: 20px 20px 20px 20px;
+    padding: 0 20px 0 20px;
     margin: 0;
     background-color: #333333;
 }
@@ -144,7 +151,6 @@ footer h4 {
     font-size: 30px;
 }
 
-
 .brand-name-footer {
     font-family: "Josefin Sans", sans-serif;
     color: #d4af37;
@@ -170,7 +176,7 @@ footer h4 {
 }
 
 
-/* ----------------------------------------------------- Special Features */
+/* ----------------------------------------------------- Site Wide Features */
 
 html {
     scroll-behavior: smooth;

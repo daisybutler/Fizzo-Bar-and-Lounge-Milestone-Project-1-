@@ -107,3 +107,25 @@
 }
     
 
+/* ----------------------------------------------------- Gallery */
+
+.gallery {
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+    background-color: #333333;
+}
+
+.gallery div {
+    padding: 0;
+    margin: 0;
+    border: 2px solid #d4af37;
+    border-bottom: none;
+}
+
+.gallery-image img {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0;
+    
+
+}

@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
 
 /* ---------------------------------------------------- Layout */
 .hero-image-container {
     height: 80vh;
 
-    background: url('../images/hero-image.jpg') no-repeat center center fixed;
+    background: url("../images/hero-image.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,7 +30,8 @@
 
 .navbar {
     width: 100%;
-    background-color: rgba(0,0,0,0.8);
+    height: 130px;
+    background: url("../images/background-pattern.jpg") repeat;
     border-bottom: 4px solid #d4af37;
 }
 
@@ -41,14 +42,14 @@
 
 #logo {
     color: #d4af37;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .nav-item a {
     color: #d4af37;
     font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 25px;
     border: none;
 }
 
@@ -119,7 +120,6 @@
     padding: 0;
     margin: 0;
     border: 2px solid #d4af37;
-    border-bottom: none;
 }
 
 .gallery-image img {
@@ -128,4 +128,50 @@
     margin: 0;
     
 
+}
+
+/* ----------------------------------------------------- Footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: url("../images/background-pattern.jpg") repeat;
+    padding: 40px 0 40px 0;
+}
+
+footer h4 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 30px;
+}
+
+
+.brand-name-footer {
+    font-family: "Josefin Sans", sans-serif;
+    color: #d4af37;
+    font-size: 50px;
+}
+
+.footer-logo {
+     color: #d4af37;
+    font-size: 40px;
+}
+
+.social-links-footer {
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 30px;
+
+}
+
+.social-links-footer a {
+    font-size: 40px;
+    color: #d4af37;
+    padding-right: 20px;
+}
+
+
+/* ----------------------------------------------------- Special Features */
+
+html {
+    scroll-behavior: smooth;
 }

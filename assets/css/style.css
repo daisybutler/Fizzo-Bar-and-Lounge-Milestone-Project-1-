@@ -1,4 +1,5 @@
-/* ----------------------------------------------------- Site Wide Features */
+
+/* ----------------------------------------------------------------------- Site Wide Features */
 
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
 
@@ -6,7 +7,42 @@ html {
     scroll-behavior: smooth;
 }
 
-/* ---------------------------------------------------- Layout */
+/* ----------------------------------------------------------------------- Navbar */
+
+.navbar {
+    width: 100%;
+    height: 130px;
+    background: url("../images/background-pattern.jpg") repeat;
+    border-bottom: 4px solid #d4af37;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+#logo {
+    color: #d4af37;
+    font-size: 60px;
+}
+
+.nav-item a {
+    color: #d4af37;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    border: none;
+}
+
+.nav-item a:hover {
+    color: #b49735;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------------------- Home */
+
+/* --------------------- Hero Image */
+
+/* Code taken from https://css-tricks.com/perfect-full-page-background-image/ to set the background image more evenly for full screen */
 
 .hero-image-container {
     height: 90vh;
@@ -32,40 +68,7 @@ html {
     background-color: rgba(0,0,0,0.4);
 }
 
-/* ----------------------------------------------------- Navbar */
-
-.navbar {
-    width: 100%;
-    height: 130px;
-    background: url("../images/background-pattern.jpg") repeat;
-    border-bottom: 4px solid #d4af37;
-}
-
-
-.navbar .navbar-toggler {
-    border: 0;
-}
-
-#logo {
-    color: #d4af37;
-    font-size: 60px;
-}
-
-.nav-item a {
-    color: #d4af37;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-    border: none;
-}
-
-    .nav-item a:hover{
-        color: #b49735;
-        text-decoration: none;
-    
-    }
-
-/* ----------------------------------------------------- Headings */
+/* --------------------- Headings */
 
 #homepage-title {
     color: #d4af37;
@@ -82,11 +85,10 @@ html {
     text-align: center;
     font-size: 47px;
     font-weight: 700;
-    letter-spacing: 7px;
-
+    letter-spacing: 7px
 }
 
-/* ----------------------------------------------------- Home */
+/* --------------------- Callout */
 
 #introduction {
     border-top: 4px solid #d4af37;
@@ -101,7 +103,6 @@ html {
     border: 2px solid #b49735;
 
 }
-
 
 #introduction p {
     text-align: center;
@@ -125,17 +126,19 @@ html {
     color: #e3e5e4;
 }
 
+/* --------------------- Carousel */
+
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease-out;
 }
 
+/* ----------------------------------------------------------------------- About */
 
-/* ----------------------------------------------------- About */
+/* --------------------- Headings */
 
 #about-title {
     background-color: #333333;
 }
-
 
 #about-title h2 {
       margin: 0;
@@ -147,29 +150,91 @@ html {
     font-size: 60px;
 }
 
+/* --------------------- Sections */
+
+#about-section-1, #about-section-2, #about-section-3 {
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: flex;
+    justify-content: center;
+}
+
+#about-section-1 {
+    height: 65vh;
+    padding-left: 50px;
+}
+
+#about-section-2 {
+    height: 100vh;
+    padding-right: 50px;
+}
+
+#about-section-3 {
+    height: 90vh;
+    padding-left: 50px;
+}
+
 .about-caption {
     padding: 50px;
 }
 
-#about-section-1 .about-caption h3 {
+.about-caption h3 {
     color: #e3e5e4;
     font-family: "Raleway", sans-serif;
     font-size: 40px;
+    text-align: center;
 }
 
-#about-section-1 .about-caption p {
+.about-caption p {
     color: #e3e5e4;
     font-family: "Raleway", sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 
-#about-section-1 .about-image img {
+.about-image img {
     padding: 50px;
-    
-} 
-    
+}
 
-/* ----------------------------------------------------- Gallery */
+/* --------------------- Buttons */
+
+.about-page-button {
+    background-color: #333333;
+    border: 2px solid #d4af37;
+    color: #d4af37;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+
+}
+    .about-page-button:hover {
+        background-color: #d4af37;
+        border-color: #b49735;
+        color: #e3e5e4;
+        text-decoration: none;
+    }
+
+#return-to-top {
+    background-color: #333333;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* ----------------------------------------------------------------------- Menus */
+
+
+
+
+
+/* ----------------------------------------------------------------------- Book */
+
+
+
+
+
+/* ----------------------------------------------------------------------- Gallery */
+
+/* --------------------- Headings */
 
 #gallery-title {
     background-color: #333333;
@@ -183,8 +248,9 @@ html {
     font-family: "Josefin Sans", sans-serif;
     color: #d4af37;
     font-size: 60px;
-
 }
+
+/* --------------------- Images */
 
 .gallery {
     padding: 0 20px 0 20px;
@@ -204,7 +270,14 @@ html {
     margin: 0;
 }
 
-/* ----------------------------------------------------- Footer */
+/* ----------------------------------------------------------------------- Contact */
+
+
+
+
+
+
+/* ----------------------------------------------------------------------- Footer */
 
 footer {
     width: 100%;
@@ -233,7 +306,6 @@ footer h4 {
     text-align: right;
     padding-top: 20px;
     padding-right: 30px;
-
 }
 
 .social-links-footer a {

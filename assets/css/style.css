@@ -124,6 +124,10 @@ html {
     border-color: #b49735;
     color: #e3e5e4;
 }
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out;
+}
     
 
 /* ----------------------------------------------------- Gallery */

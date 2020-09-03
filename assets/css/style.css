@@ -1,6 +1,13 @@
+/* ----------------------------------------------------- Site Wide Features */
+
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ---------------------------------------------------- Layout */
+
 .hero-image-container {
     height: 90vh;
 
@@ -26,7 +33,6 @@
 }
 
 /* ----------------------------------------------------- Navbar */
-
 
 .navbar {
     width: 100%;
@@ -59,7 +65,6 @@
     
     }
 
-
 /* ----------------------------------------------------- Headings */
 
 #homepage-title {
@@ -81,22 +86,43 @@
 
 }
 
-
 /* ----------------------------------------------------- Home */
 
 #introduction {
-
     border-top: 4px solid #d4af37;
-    padding: 100px 40px 100px 40px;
-    background-color: #333333;
+    padding: 60px 100px 60px 100px;
+    background-color: #222121;
 }
 
-#introduction h4{
+.jumbotron {
+    text-align: center;
+    margin-bottom: 0;
+    background-color: rgb(48, 46, 46);
+    border: 2px solid #b49735;
+
+}
+
+
+#introduction p {
     text-align: center;
     color: #d4af37;
     font-family: "Raleway", sans-serif;
     font-size: 30px;
+    padding-bottom: 20px;
+}
 
+.book-now-button {
+    color: #d4af37;
+    border: 2px solid #d4af37;
+    width: 150px;
+    height: 75px;
+    font-size: 25px;
+}
+
+.book-now-button:hover {
+    background-color: #d4af37;
+    border-color: #b49735;
+    color: #e3e5e4;
 }
     
 
@@ -133,8 +159,6 @@
     max-width: 100%;
     padding: 20px;
     margin: 0;
-    
-
 }
 
 /* ----------------------------------------------------- Footer */
@@ -173,11 +197,4 @@ footer h4 {
     font-size: 40px;
     color: #d4af37;
     padding-right: 20px;
-}
-
-
-/* ----------------------------------------------------- Site Wide Features */
-
-html {
-    scroll-behavior: smooth;
 }

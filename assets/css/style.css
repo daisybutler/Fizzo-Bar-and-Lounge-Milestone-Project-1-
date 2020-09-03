@@ -128,15 +128,54 @@ html {
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease-out;
 }
+
+
+/* ----------------------------------------------------- About */
+
+#about-title {
+    background-color: #333333;
+}
+
+
+#about-title h2 {
+      margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    color: #d4af37;
+    font-size: 60px;
+}
+
+.about-caption {
+    padding: 50px;
+}
+
+#about-section-1 .about-caption h3 {
+    color: #e3e5e4;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+}
+
+#about-section-1 .about-caption p {
+    color: #e3e5e4;
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+}
+
+#about-section-1 .about-image img {
+    padding: 50px;
+    
+} 
     
 
 /* ----------------------------------------------------- Gallery */
 
-.gallery-title {
+#gallery-title {
     background-color: #333333;
 }
 
-.gallery-title h2 {
+#gallery-title h2 {
     margin: 0;
     padding-top: 50px;
     padding-bottom: 50px;

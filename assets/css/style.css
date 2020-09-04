@@ -7,6 +7,14 @@ html {
     scroll-behavior: smooth;
 }
 
+h2 {
+
+}
+
+p {
+
+}
+
 /* ----------------------------------------------------------------------- Navbar */
 
 .navbar {
@@ -294,6 +302,8 @@ html {
 
 /* ----------------------------------------------------------------------- Contact */
 
+/* --------------------- Headings */
+
 #contact-title {
     background-color: #333333;
 }
@@ -306,8 +316,33 @@ html {
     font-family: "Josefin Sans", sans-serif;
     color: #d4af37;
     font-size: 60px;
-
 }
+
+.contact-info {
+    background-color: #333333;
+    text-align: center;
+    
+}
+
+.contact-info h3 { 
+    color: #e3e5e4;
+    font-family: "Raleway", sans-serif;
+    font-size: 35px;
+}
+
+.contact-info p {
+    color: #e3e5e4;
+    font-family: "Raleway", sans-serif; 
+    font: 20px;
+}
+
+@media (min-width: 768px) {
+    .contact-info {text-align: left; padding-left: 50px}
+ }
+
+
+
+
 
 
 

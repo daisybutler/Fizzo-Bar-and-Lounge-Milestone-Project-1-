@@ -53,14 +53,16 @@ p {
     padding-top: 50px;
     margin-top: 18px;
     background: url("../images/background-pattern.jpg") repeat;
-    height: 600px;
+    height: 90vh;
+    width: 100%;
     border: 4px solid #d4af37;
-}
+} 
+
+
 
 @media (min-width: 768px) {
     #navbarSmallerScreenDropdown a {font-size: 25px}
     #navbarSmallerScreenDropdown {padding-top: 0; background: none; margin-top: 0; border: none}
-     
 }
 
    
@@ -99,7 +101,7 @@ p {
 #homepage-title {
     color: #d4af37;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 150px;
+    font-size: 120px;
     line-height: 0.7;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #b49735;
@@ -109,9 +111,14 @@ p {
     color: #e3e5e4;
     font-family: "Josefin Sans", sans-serif;
     text-align: center;
-    font-size: 47px;
+    font-size: 35px;
     font-weight: 700;
     letter-spacing: 7px
+}
+
+@media (min-width: 576px){
+    #homepage-title {font-size: 150px}
+    #homepage-subtitle {font-size: 47px}
 }
 
 /* --------------------- Callout */
@@ -156,6 +163,24 @@ p {
 
 .carousel-item {
     transition: transform 2s ease, opacity .5s ease-out;
+    padding: 50px 20px 50px 20px;
+}
+
+.carousel-item p {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    color: #e3e5e4;
+    background-color: rgba(0,0,0,0.4);
+    border: 2px solid #d4af37;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+}
+
+
+.carousel-inner {
+    text-align: center;
+    background-color: #333333;
+    padding: 50px 0 50px;
 }
 
 /* ----------------------------------------------------------------------- About */
@@ -336,8 +361,18 @@ p {
     font: 20px;
 }
 
+.map {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #333333;
+}
+
 @media (min-width: 768px) {
     .contact-info {text-align: left; padding-left: 50px}
+ }
+
+ @media (max-width: 768px) {
+     .map {text-align: center}
  }
 
 
@@ -373,8 +408,8 @@ footer h4 {
 }
 
 .social-links-footer {
-    text-align: right;
-    padding-top: 20px;
+    text-align: center;
+    padding-top: 0;
     padding-right: 30px;
 }
 
@@ -382,4 +417,9 @@ footer h4 {
     font-size: 40px;
     color: #d4af37;
     padding-right: 20px;
+}
+
+@media (min-width: 626px) {
+    .social-links-footer {padding-top: 20px}
+
 }

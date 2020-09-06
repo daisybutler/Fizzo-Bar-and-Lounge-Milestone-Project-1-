@@ -161,13 +161,25 @@ p {
 
 /* --------------------- Carousel */
 
+.carousel {
+    text-align: center;
+    background-color: #333333;
+}
+
 .carousel-item {
-    transition: transform 2s ease, opacity .5s ease-out;
-    padding: 50px 20px 50px 20px;
+    transition: transform .5s ease, opacity .5s ease-out;
+    transition-duration: 3s;
+    padding: 20px 20px 20px 20px;
+}
+
+.carousel-item img {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 .carousel-item p {
-    font-size: 40px;
+    font-size: 20px;
     font-family: "Raleway", sans-serif;
     color: #e3e5e4;
     background-color: rgba(0,0,0,0.4);
@@ -176,12 +188,18 @@ p {
     padding: 10px 0 10px 0;
 }
 
-
-.carousel-inner {
-    text-align: center;
-    background-color: #333333;
-    padding: 50px 0 50px;
+@media (min-width:768px) {
+    .carousel-item p {font-size: 35px}
+    .carousel-item img {height: 70%; width: 50%}
+    
 }
+
+@media (min-width: 992px) {
+    .carousel-item img {height: 50%; width: 30%}
+ }
+
+
+
 
 /* ----------------------------------------------------------------------- About */
 
@@ -334,7 +352,7 @@ p {
 }
 
 #contact-title h2 {
-     margin: 0;
+    margin: 0;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -365,19 +383,26 @@ p {
     padding-left: 0;
     padding-right: 0;
     background-color: #333333;
+    text-align: center;
+}
+
+.map img {
+    position: relative;
+    height: 90%;
+    width: 80%;
+    
 }
 
 @media (min-width: 768px) {
     .contact-info {text-align: left; padding-left: 50px}
+    .map img {padding-bottom: 50px}
  }
 
- @media (max-width: 768px) {
-     .map {text-align: center}
+ @media (min-width: 992px) {
+     .contact-info p {font-size: 35px}
+     .contact-info h3 {font-size: 45px}
+     .contact-info {padding-left: 100px}
  }
-
-
-
-
 
 
 
@@ -385,6 +410,7 @@ p {
 /* ----------------------------------------------------------------------- Footer */
 
 footer {
+    bottom: 0;
     width: 100%;
     text-align: center;
     background: url("../images/background-pattern.jpg") repeat;

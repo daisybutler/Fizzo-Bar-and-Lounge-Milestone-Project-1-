@@ -367,10 +367,10 @@ p {
     
 }
 
-.contact-info h3 { 
-    color: #e3e5e4;
-    font-family: "Raleway", sans-serif;
-    font-size: 35px;
+.contact-info i {
+    font-size: 30px;
+    color: #d4af37;
+    
 }
 
 .contact-info p {
@@ -390,6 +390,7 @@ p {
     position: relative;
     height: 90%;
     width: 80%;
+    padding-bottom: 40px;
     
 }
 
@@ -399,10 +400,12 @@ p {
  }
 
  @media (min-width: 992px) {
-     .contact-info p {font-size: 35px}
-     .contact-info h3 {font-size: 45px}
+     .contact-info p {font-size: 30px}
      .contact-info {padding-left: 100px}
+     .contact-info i {font-size: 40px}
  }
+
+
 
 
 

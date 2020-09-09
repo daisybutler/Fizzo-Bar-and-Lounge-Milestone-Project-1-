@@ -344,20 +344,117 @@ p {
     background-color: #333333;
 }
 
+.menus-filler {
+    background-color: #333333;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* --------------------- Badge */
+
+#menus-badge-section {
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+
+#menus-badge-section .badge {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    background-color: #d4af37;
+    border: 4px solid #b49735;
+    padding-top: 30px;
+    line-height: 20px;
+    width: 205px;
+    height: 200px;
+}
+
+#menus-badge-section .badge p1 {
+    font-size: 19px;
+   
+}
+#menus-badge-section .badge p2 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+#menus-badge-section .badge p3 {
+    font-size: 15px;
+    border-top: 1px solid #fff;
+    font-weight: lighter;
+    padding-top: 10px;  
+}
+
+#menus-badge-section .badge a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+}
+
+#menus-badge-section .badge i {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+@media (min-width:768px) {
+    #menus-title {padding-top: 70px}
+}
+
 
 /* --------------------- Accordion */
 
 .menu-header {
     padding: 40px 0 40px 0;
+    background-color: #333333;
 }
+
 .menu-header button {
  font-family: "Josefin Sans", sans-serif;
     color: #d4af37;
     font-size: 40px;
-    text-decoration: none;
 }
 
+.menu-header button:hover{
+    text-decoration: none;
+    color: #b49735;
+}
 
+/* --------------------- Menus */
+
+.card-body {
+    background: url("../images/three-colourful-cocktails.jpg") bottom center;
+}
+
+.menu-opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 0;
+}
+
+.menu-title {
+    color: #d4af37;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.menu-list-item {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.menu-list-item p {
+    font-size: 25px;
+    color: #e3e5e4;
+}
+
+.menu-list-item small {
+    color: #e3e5e4;
+}
 
 
 

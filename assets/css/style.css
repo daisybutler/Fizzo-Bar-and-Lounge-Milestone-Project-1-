@@ -101,7 +101,7 @@ html {
     line-height: 0.7;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #b49735;
-    }
+}
 
 #homepage-subtitle {
     color: #e3e5e4;
@@ -134,14 +134,20 @@ html {
     padding-bottom: 40px;
 }
 
+#introduction h4 {
+    text-align: center;
+    color: #d4af37;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
 
 #introduction p {
     text-align: center;
     color: #d4af37;
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    
+    font-size: 17px;
+    font-weight: 500; 
 }
 
 .book-now-button {
@@ -151,6 +157,7 @@ html {
     height: 75px;
     font-size: 25px;
     font-weight: 600;
+    padding-top: 15px;
 }
 
 .book-now-button:hover {
@@ -185,6 +192,7 @@ html {
 
 @media (min-width: 768px) {
     #introduction p {text-align: left}
+    #introduction h4 {text-align: left}
     .book-now-button {float: left}
     .jumbotron {padding-top: 20px}
 }
@@ -213,14 +221,6 @@ html {
     border: 1px solid transparent;
     border-radius: 50px;
 }
-
-/*@media (min-width:768px) {
-    .carousel-item img {height: 70%; width: 50%}
-}
-
-@media (min-width: 992px) {
-    .carousel-item img {height: 50%; width: 30%}
- }*/
 
 /* ----------------------------------------------------------------------- About */
 
@@ -300,7 +300,6 @@ html {
     .about-caption {padding-top: 120px}
 }
   
-
 /* --------------------- Buttons */
 
 .about-page-button {
@@ -311,11 +310,11 @@ html {
     font-size: 30px;
 }
 
-    .about-page-button:hover {
-        background-color: #d4af37;
-        border-color: #b49735;
-        color: #e3e5e4;
-        text-decoration: none;
+.about-page-button:hover {
+    background-color: #d4af37;
+    border-color: #b49735;
+    color: #e3e5e4;
+    text-decoration: none;
 }
 
 #return-to-top {
@@ -326,7 +325,7 @@ html {
 
 @media (max-width: 992px) {
    .about-page-button {display: none}
- }
+}
 
 /* ----------------------------------------------------------------------- Menus */
 
@@ -363,21 +362,21 @@ html {
     background-color: #d4af37;
     border: 4px solid #b49735;
     padding-top: 30px;
-    line-height: 20px;
+    line-height: 10px;
     width: 205px;
     height: 200px;
 }
 
-#menus-badge-section .badge p1 {
+#eat-out-to-help-out {
     font-size: 19px;
    
 }
-#menus-badge-section .badge p2 {
+#eat-out-to-help-out-times {
     font-size: 15px;
     font-weight: lighter;
 }
 
-#menus-badge-section .badge p3 {
+#eat-out-to-help-out-info {
     font-size: 15px;
     border-top: 1px solid #fff;
     font-weight: lighter;
@@ -398,7 +397,6 @@ html {
 @media (min-width:768px) {
     #menus-title {padding-top: 70px}
 }
-
 
 /* --------------------- Accordion */
 
@@ -433,6 +431,7 @@ html {
     font-size: 50px;
     text-align: center;
 }
+
 .menu-list-item {
     padding-bottom: 40px;
     padding-top: 10px;
@@ -461,8 +460,6 @@ html {
     font-size: 20px;
     font-family: "Josefin Sans", sans-serif;
 }
-
-
 
 /* ----------------------------------------------------------------------- Book */
 
@@ -612,7 +609,6 @@ form input {
     transition: .3s ease-out;
 }
 
-
 /* ----------------------------------------------------------------------- Contact */
 
 /* --------------------- Headings */
@@ -670,14 +666,14 @@ form input {
 @media (min-width: 768px) {
     .contact-info {text-align: left; padding-left: 50px}
     .map {padding-bottom: 50px}
- }
+}
 
- @media (min-width: 992px) {
-     .contact-info p {font-size: 30px}
-     .contact-info {padding-left: 100px}
-     .contact-info i {font-size: 40px}
-     .map img {max-height: 500px; max-width: 500px}
- }
+@media (min-width: 992px) {
+    .contact-info p {font-size: 30px}
+    .contact-info {padding-left: 100px}
+    .contact-info i {font-size: 40px}
+    .map img {max-height: 500px; max-width: 500px}
+}
 
 /* ----------------------------------------------------------------------- Footer */
 

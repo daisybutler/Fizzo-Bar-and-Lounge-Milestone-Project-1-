@@ -362,7 +362,7 @@ html {
     background-color: #d4af37;
     border: 4px solid #b49735;
     padding-top: 30px;
-    line-height: 10px;
+    line-height: 20px;
     width: 205px;
     height: 200px;
 }
@@ -380,7 +380,6 @@ html {
     font-size: 15px;
     border-top: 1px solid #fff;
     font-weight: lighter;
-    padding-top: 10px;  
 }
 
 #menus-badge-section .badge a {

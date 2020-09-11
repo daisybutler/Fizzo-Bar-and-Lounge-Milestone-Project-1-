@@ -34,7 +34,7 @@ html {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
     border: none;
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .nav-item a:hover {
@@ -44,7 +44,7 @@ html {
 
 #navbarSmallerScreenDropdown {
     text-align: center;
-    line-height: 70px;
+    line-height: 60px;
     padding-top: 50px;
     margin-top: 18px;
     background: url("../images/background-pattern.jpg") repeat;
@@ -52,6 +52,11 @@ html {
     width: 100%;
     border: 4px solid #d4af37;
 } 
+
+@media (min-width: 321px){
+    .nav-item a {font-size: 70px}
+    #navbarSmallerScreenDropdown {line-height: 70px}
+}
 
 @media (min-width: 768px) {
     #navbarSmallerScreenDropdown a {font-size: 25px}

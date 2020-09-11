@@ -21,15 +21,27 @@ The owner's aim for the website is to secure table bookings via the website to i
 ## Features
 **Home:** must immediately convey the atmosphere of the bar and lounge - stylish and a classy. Call to action (book) and a clear navbar to access the about, menus, gallery and contact tabs.
 
+![](assets/images/home.png)
+
 **About** Clearly sets out the location and services offered at the bar and lounge in an easy to read manner. 
+
+![](assets/images/about.png)
 
 **Menus:** one click access to dropdowns of each menu with attention drawn to any existing offers. 
 
+![](assets/images/menus.png)
+
 **Book:** one page form to allow customers to submit a booking request online. All * fields are required to prevent an incomplete booking.
+
+![](assets/images/book.png)
 
 **Gallery:** displays product and service in a simple and clean format.Link to Instagram page should further exploration be desired. 
 
+![](assets/images/gallery.png)
+
 **Contact:** caters for minority of site visitors who are there for something other than booking or browsing. Contact options ensure potential customers are not lost should they have a query which needs answering before they book.
+
+![](assets/images/contact.png)
 
 ### Colours:
 The colour scheme for this website is a dominant colour of dark grey #333333 with fonts of gold #d4af37 and a light grey/silver #e3e5e4.Some section are white #ffffff for visual contrast and clarity. These neutral tones allow for the colourful images of cocktails to stand out.
@@ -49,15 +61,27 @@ I used [https://validator.w3.org/nu/](https://validator.w3.org/nu/) to validate 
 
 A potential customer can find out about the restaurant and its unique selling point by visiting the About tab. The page is divided into three sections of information - the location, the drinks and food served and the occasions the venue is suited for. Access to next steps are also provided. The breakdown into sections, with clickable navigation to the next section on larger screens, reduces textual overload for the user. Corresponding images for each section helps to illustrate each section's focus.
 
+![](assets/images/about-screenshot.png)
+
 A potential customer can find out the exact food and drinks on offer by navigating to the Menus tab. Three collapsable sections, cocktails, tapas and lunch provide a clean layout. One section can only be toggled at a time to prevent too much text being present on the screen at any given time and causing a visual overload. The offer badge in the top right provides an incentive to make a booking. To reduce on-screen clutter, this is only present on larger screens. The endnote regarding dietary requirements makes the potential customer aware of the restaurants capabilities before they commit to booking in order to avoid disappointment. 
+
+![](assets/images/menus-screenshot.png)
 
 A customer who wishes to make a booking can do so by navigating to the Book tab. A form is displayed in a clean and simple format to ensure clarity for the user. The fields that are essential for the bar to receive in order to register a booking - name, email, number of guests, date and time - are all required fields. The optional field - special requirements - is a feature which accommodates for the customer should they have anything they would like to add. The background image was specifically chosen to depict people at the bar to subconsciously suggest the popularity, and thus good quality, of the bar to the potential customer and increase the likelihood that they will complete the booking. 
 
+![](assets/images/book-screenshot.png)
+
 A potential customer can find out what the bar and lounge and food looks like by visiting the Gallery tab. Photos are displayed in a simple and spaced format with rows of 2 for smaller screens and rows of 3 for larger screens to avoid cramming. A link to further photos is provided at the bottom via social media should the customer wish to investigate further. 
+
+![](assets/images/gallery-screenshot.png)
 
 A potential customer can easily reach out with a query by navigating to the Contact tab. They can choose their preferred form of contact from the range offered. The icons highlight intuitively what each method of contact is. 
 
+![](assets/images/contact-screenshot.png)
+
 As the owner of the bar and lounge, I can see that the website is set out in a clean and orderly fashion with easy access to every feature a potential customer may wish to explore in the navbar at the top. There are plenty of images of the establishment and the colour scheme and layout successfully reflect the stylist feel of it.
+
+![](assets/images/home-screenshot.png)
 
 ### Responsive behaviour
 
@@ -122,4 +146,14 @@ How I got my website up and running on Github Pages.
 How another developer can pull my repository from Github to clone my code to work on themselves.
 
 ## Credits
+[Hero image display]([https://css-tricks.com/perfect-full-page-background-image/](https://css-tricks.com/perfect-full-page-background-image/)): To make the display of the hero image even and nicely rendered.
 
+[Carousel](https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde): in addition to Bootstrap's code for their carousel, this site helped me render it with multiple images, rather than the default one at a time which bootstrap gives. 
+
+[Accordion](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example): Bootstrap's accordion code used for the collapsable menu tabs.
+
+[Accordion toggled]([https://stackoverflow.com/questions/56106381/bootstrap-collapse-text-decoration](https://stackoverflow.com/questions/56106381/bootstrap-collapse-text-decoration)): Text decoration would only render as none once this site suggested .btn-link:focus also ought to be set as text-decoration:none.
+
+[About images stack order]( [https://stackoverflow.com/questions/32170406/how-to-change-order-of-divs-on-smaller-screens](https://stackoverflow.com/questions/32170406/how-to-change-order-of-divs-on-smaller-screens)): source helped my render the images as above captions on smaller screens but on the right hand side (i.e. underneath) the caption on larger screens. 
+
+[Styling next and prev icons on carousel](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel): targeting the Bootstrap class for next and prev items rendered no style change so this site suggested overriding the default icons with ones from font awesome and targeting those.

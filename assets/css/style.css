@@ -97,7 +97,7 @@ html {
 #homepage-title {
     color: #d4af37;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 120px;
+    font-size: 100px;
     line-height: 0.7;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #b49735;
@@ -107,7 +107,7 @@ html {
     color: #e3e5e4;
     font-family: "Josefin Sans", sans-serif;
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
     font-weight: 700;
     letter-spacing: 7px
 }
@@ -209,7 +209,7 @@ html {
 }
 
 .carousel-item {
-    transition: transform .5s ease, opacity .5s ease-out;
+    transition: transform .2s ease, opacity .2s ease-out;
     transition-duration: 3s;
     padding: 20px 20px 20px 20px;
 }
@@ -220,6 +220,22 @@ html {
     width: 100%;*/
     border: 1px solid transparent;
     border-radius: 50px;
+}
+
+.carousel-control-prev i {
+    font-size: 40px;
+    color: #000000;
+    border: 2px solid #d4af37;
+    border-radius: 20px;
+    background-color: #d4af37;
+}
+
+.carousel-control-next i {
+    font-size: 40px;
+    color: #000000;
+    border: 2px solid #d4af37;
+    border-radius: 20px;
+    background-color: #d4af37;
 }
 
 /* ----------------------------------------------------------------------- About */
@@ -266,8 +282,8 @@ html {
 
 .about-image img {
     padding: 50px;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
     border: 1px solid transparent;
     border-radius: 100px;
 }
@@ -275,6 +291,7 @@ html {
 @media (min-width: 576px) {
     .about-caption {padding-top: 50px}
     #about-section-3 {padding-bottom: 50px}
+    .about-image img {height: 500px; width: 500px}
 }
 
 /* Principle taken from https://stackoverflow.com/questions/32170406/how-to-change-order-of-divs-on-smaller-screens */

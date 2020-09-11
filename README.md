@@ -43,7 +43,7 @@ The colour scheme for this website is a dominant colour of dark grey #333333 wit
 ## Testing
 ### Code Validation
 
-I used [https://validator.w3.org/nu/](https://validator.w3.org/nu/) to validate my code. i raised several issues with child p elements which couldn't be used with divs and 'p1', 'p2' etc. i had also not given a section an heading tag as a direct child in the jumbotron. I raised an error with using p elements as children of span in the badge on the menu page but I didn't know how else to render it.
+I used [https://validator.w3.org/nu/](https://validator.w3.org/nu/) to validate my code. i raised several issues with child p elements which couldn't be used with divs and 'p1', 'p2' etc. I had also not given a section an heading tag as a direct child in the jumbotron. It raised an error with using p elements as children of span in the badge on the menu page so I replaced them with more spans and this fixed it. 
 
 ### Satisfying user stories
 

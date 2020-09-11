@@ -1,6 +1,8 @@
 # Fizzo Bar and Lounge (Milestone Project 1)
 
 A website for a bar and lounge which serves cocktails and tapas in  casual yet classy surroundings. The aim of the website is to produce a higher conversion rate of visits to table bookings, and thus higher profits. 
+
+------
 ## UX
 The customer needs to find the process of navigating the site as simple as possible. Although a fundamental feature, this is not always to make a booking. Accessing menus and viewing the gallery are important parts of the process leading up to the conversion to a booking. Text should be minimal with a focus on stylish imagery to maintain the interest and focus of the site visitor.
 
@@ -17,6 +19,8 @@ The owner's aim for the website is to secure table bookings via the website to i
 - As a customer with a query not covered by the website, I want to know where I can reach out for further infomation.
 
 - As the owner of the site, I want my business to strongly appeal to potential customers so that the experience manifests itself as greater than the cost.
+
+------
 
 ## Features
 **Home:** must immediately convey the atmosphere of the bar and lounge - stylish and a classy. Call to action (book) and a clear navbar to access the about, menus, gallery and contact tabs.
@@ -46,18 +50,26 @@ The owner's aim for the website is to secure table bookings via the website to i
 ### Colours:
 The colour scheme for this website is a dominant colour of dark grey #333333 with fonts of gold #d4af37 and a light grey/silver #e3e5e4.Some section are white #ffffff for visual contrast and clarity. These neutral tones allow for the colourful images of cocktails to stand out.
 
+-----
 ## Technologies Used
 [Bootstrap](https://getbootstrap.com/): to optimise and speed up the process of styling site with CSS.
 
 [Fontawesome](https://fontawesome.com/): provides useful icons for intutive user experience. 
 
 [Unsplash](https://unsplash.com/): stock images used throughout the website. 
+
+-------
+
 ## Testing
 ### Code Validation
 
 I used [https://validator.w3.org/nu/](https://validator.w3.org/nu/) to validate my code. i raised several issues with child p elements which couldn't be used with divs and 'p1', 'p2' etc. I had also not given a section an heading tag as a direct child in the jumbotron. It raised an error with using p elements as children of span in the badge on the menu page so I replaced them with more spans and this fixed it. 
 
 ### Satisfying user stories
+
+As the owner of the bar and lounge, I can see that the website is set out in a clean and orderly fashion with easy access to every feature a potential customer may wish to explore in the navbar at the top. There are plenty of images of the establishment and the colour scheme and layout successfully reflect the stylist feel of it.
+
+![](assets/images/home-screenshot.png)
 
 A potential customer can find out about the restaurant and its unique selling point by visiting the About tab. The page is divided into three sections of information - the location, the drinks and food served and the occasions the venue is suited for. Access to next steps are also provided. The breakdown into sections, with clickable navigation to the next section on larger screens, reduces textual overload for the user. Corresponding images for each section helps to illustrate each section's focus.
 
@@ -79,9 +91,6 @@ A potential customer can easily reach out with a query by navigating to the Cont
 
 ![](assets/images/contact-screenshot.png)
 
-As the owner of the bar and lounge, I can see that the website is set out in a clean and orderly fashion with easy access to every feature a potential customer may wish to explore in the navbar at the top. There are plenty of images of the establishment and the colour scheme and layout successfully reflect the stylist feel of it.
-
-![](assets/images/home-screenshot.png)
 
 ### Responsive behaviour
 
@@ -140,20 +149,24 @@ Carousel: I had trouble with the carousel in terms of rendering the correct prop
 
 About sections: I had trouble with the positioning of the about captions and images so that they remained inline with each other as they scaled down. I solved this using container-fluids and a host of media queries adjusting the padding and text and image sizes with scaling. The idea was to have each section 100vh for clarity and division, hence the button navigation. I think i got this idea to render adequately but I did choose to use less than 100vh for each because the header needed to be included in the browser view of the first section and excess of empty space between sections was not desirable.
 
+-----
+
 ## Deployments
 How I got my website up and running on Github Pages.
 
 How another developer can pull my repository from Github to clone my code to work on themselves.
 
+----
+
 ## Credits
-[Hero image display]([https://css-tricks.com/perfect-full-page-background-image/](https://css-tricks.com/perfect-full-page-background-image/)): To make the display of the hero image even and nicely rendered.
+[Hero image display](https://css-tricks.com/perfect-full-page-background-image/): To make the display of the hero image even and nicely rendered.
 
 [Carousel](https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde): in addition to Bootstrap's code for their carousel, this site helped me render it with multiple images, rather than the default one at a time which bootstrap gives. 
 
 [Accordion](https://getbootstrap.com/docs/4.5/components/collapse/#accordion-example): Bootstrap's accordion code used for the collapsable menu tabs.
 
-[Accordion toggled]([https://stackoverflow.com/questions/56106381/bootstrap-collapse-text-decoration](https://stackoverflow.com/questions/56106381/bootstrap-collapse-text-decoration)): Text decoration would only render as none once this site suggested .btn-link:focus also ought to be set as text-decoration:none.
+[Accordion toggled](https://stackoverflow.com/questions/56106381/bootstrap-collapse-text-decoration): Text decoration would only render as none once this site suggested .btn-link:focus also ought to be set as text-decoration:none.
 
-[About images stack order]( [https://stackoverflow.com/questions/32170406/how-to-change-order-of-divs-on-smaller-screens](https://stackoverflow.com/questions/32170406/how-to-change-order-of-divs-on-smaller-screens)): source helped my render the images as above captions on smaller screens but on the right hand side (i.e. underneath) the caption on larger screens. 
+[About images stack order](https://stackoverflow.com/questions/32170406/how-to-change-order-of-divs-on-smaller-screens): source helped my render the images as above captions on smaller screens but on the right hand side (i.e. underneath) the caption on larger screens. 
 
 [Styling next and prev icons on carousel](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel): targeting the Bootstrap class for next and prev items rendered no style change so this site suggested overriding the default icons with ones from font awesome and targeting those.

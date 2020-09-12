@@ -1,6 +1,6 @@
 # Fizzo Bar and Lounge (Milestone Project 1)
 
-A website for a bar and lounge which serves cocktails and tapas in  casual yet classy surroundings. The aim of the website is to produce a higher conversion rate of visits to table bookings, and thus higher profits. 
+This prject is a website for a bar and lounge which serves cocktails and tapas in  casual yet classy surroundings. The aim of the website is to produce a higher conversion rate of visits to table bookings, and thus higher profits. 
 
 ------
 ## UX
@@ -8,7 +8,7 @@ The customer needs to find the process of navigating the site as simple as possi
 
 The owner's aim for the website is to secure table bookings via the website to increase revenue. The website will do this by a) making the booking process quick and simple for someone who wishes to book; b) selling the dining experience (classy, stylish, upmarket, relaxed) to a site visitor who is yet to make a decision to book.
 ### User Stories:
-- As a potential customer, I want to find out about the restaurant and its unique selling point.
+- As a potential customer, I want be impressed by the look and style of the website for the bar.
 
 - As a potential customer, I want to access the menu to see what drinks and food are offered.
 
@@ -39,11 +39,11 @@ The owner's aim for the website is to secure table bookings via the website to i
 
 ![](assets/images/book.png)
 
-**Gallery:** displays product and service in a simple and clean format.Link to Instagram page should further exploration be desired. 
+**Gallery:** displays product and service in a simple and clean format. There is a link to bar's Instagram page should further exploration be desired. 
 
 ![](assets/images/gallery.png)
 
-**Contact:** caters for minority of site visitors who are there for something other than booking or browsing. Contact options ensure potential customers are not lost should they have a query which needs answering before they book.
+**Contact:** caters for a minority of site visitors who are there for something other than booking or browsing. Contact options ensure potential customers are not lost should they have a query which needs answering before they book.
 
 ![](assets/images/contact.png)
 
@@ -63,7 +63,7 @@ The colour scheme for this website is a dominant colour of dark grey #333333 wit
 ## Testing
 ### Code Validation
 
-I used [https://validator.w3.org/nu/](https://validator.w3.org/nu/) to validate my code. i raised several issues with child p elements which couldn't be used with divs and 'p1', 'p2' etc. I had also not given a section an heading tag as a direct child in the jumbotron. It raised an error with using p elements as children of span in the badge on the menu page so I replaced them with more spans and this fixed it. 
+I used [https://validator.w3.org/nu/](https://validator.w3.org/nu/) to validate my code. It raised several issues with child p elements which couldn't be used with divs when labelled as 'p1', 'p2' etc. I had also not given a section an heading tag as a direct child in the jumbotron. It also raised an error with using p elements as children of span in the badge on the menu page. I replaced the p elements with more spans to fix this. 
 
 ### Satisfying user stories
 
@@ -75,11 +75,11 @@ A potential customer can find out about the restaurant and its unique selling po
 
 ![](assets/images/about-screenshot.png)
 
-A potential customer can find out the exact food and drinks on offer by navigating to the Menus tab. Three collapsable sections, cocktails, tapas and lunch provide a clean layout. One section can only be toggled at a time to prevent too much text being present on the screen at any given time and causing a visual overload. The offer badge in the top right provides an incentive to make a booking. To reduce on-screen clutter, this is only present on larger screens. The endnote regarding dietary requirements makes the potential customer aware of the restaurants capabilities before they commit to booking in order to avoid disappointment. 
+A potential customer can find out the exact food and drinks on offer by navigating to the Menus tab. Three collapsable sections - cocktails, tapas and lunch - provide a clean layout. One section can only be toggled at a time to prevent too much text being present on the screen at any given time and causing a visual overload. The offer badge in the top right provides an incentive to make a booking. To reduce on-screen clutter, this is only present on larger screens. The endnote regarding dietary requirements makes the potential customer aware of the restaurants capabilities before they commit to booking in order to avoid disappointment. 
 
 ![](assets/images/menus-screenshot.png)
 
-A customer who wishes to make a booking can do so by navigating to the Book tab. A form is displayed in a clean and simple format to ensure clarity for the user. The fields that are essential for the bar to receive in order to register a booking - name, email, number of guests, date and time - are all required fields. The optional field - special requirements - is a feature which accommodates for the customer should they have anything they would like to add. The background image was specifically chosen to depict people at the bar to subconsciously suggest the popularity, and thus good quality, of the bar to the potential customer and increase the likelihood that they will complete the booking. 
+A customer who wishes to make a booking can do so by navigating to the Book tab. A form is displayed in a clean and simple format to ensure simplicity for the user. The fields that are essential for the bar to receive in order to register a booking - name, email, number of guests, date and time - are all required fields. The optional field - special requirements - is a feature which accommodates for the customer should they have anything they would like to add. The background image was specifically chosen to depict people at the bar to subconsciously suggest the popularity, and thus good quality, of the bar to the potential customer and increase the likelihood that they will complete the booking. 
 
 ![](assets/images/book-screenshot.png)
 
@@ -176,4 +176,4 @@ How another developer can pull my repository from Github to clone my code to wor
 All images were obtained from [Unsplash](https://unsplash.com/).
 
 ### Acknowledgements
-This project received imspiration from [The Alchemist](https://thealchemist.uk.com/) and [Coya](https://www.coyarestaurant.com/mayfair/) restaurant websites. 
+This project received inspiration from [The Alchemist](https://thealchemist.uk.com/) and [Coya](https://www.coyarestaurant.com/mayfair/) restaurant websites. 

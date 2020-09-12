@@ -159,6 +159,7 @@ How another developer can pull my repository from Github to clone my code to wor
 ----
 
 ## Credits
+### Content
 [Hero image display](https://css-tricks.com/perfect-full-page-background-image/): To make the display of the hero image even and nicely rendered.
 
 [Carousel](https://medium.com/wdstack/bootstrap-4-custom-carousel-94a537364fde): in addition to Bootstrap's code for their carousel, this site helped me render it with multiple images, rather than the default one at a time which bootstrap gives. 
@@ -170,3 +171,9 @@ How another developer can pull my repository from Github to clone my code to wor
 [About images stack order](https://stackoverflow.com/questions/32170406/how-to-change-order-of-divs-on-smaller-screens): source helped my render the images as above captions on smaller screens but on the right hand side (i.e. underneath) the caption on larger screens. 
 
 [Styling next and prev icons on carousel](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel): targeting the Bootstrap class for next and prev items rendered no style change so this site suggested overriding the default icons with ones from font awesome and targeting those.
+
+### Media
+All images were obtained from [Unsplash](https://unsplash.com/).
+
+### Acknowledgements
+This project received imspiration from [The Alchemist](https://thealchemist.uk.com/) and [Coya](https://www.coyarestaurant.com/mayfair/) restaurant websites. 

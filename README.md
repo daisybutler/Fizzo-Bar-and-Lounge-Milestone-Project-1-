@@ -1,12 +1,13 @@
 # Fizzo Bar and Lounge (Milestone Project 1)
 
-This prject is a website for a bar and lounge which serves cocktails and tapas in  casual yet classy surroundings. The aim of the website is to produce a higher conversion rate of visits to table bookings, and thus higher profits. 
+This project is a website for a bar and lounge which serves cocktails and tapas in  casual yet classy surroundings. The aim of the website is to produce a higher conversion rate of visits to table bookings, and thus higher profits. The live version of my project can be accessed here: https://daisybutler.github.io/Fizzo-Bar-and-Lounge-ci-project01/
 
 ------
 ## UX
 The customer needs to find the process of navigating the site as simple as possible. Although a fundamental feature, this is not always to make a booking. Accessing menus and viewing the gallery are important parts of the process leading up to the conversion to a booking. Text should be minimal with a focus on stylish imagery to maintain the interest and focus of the site visitor.
 
 The owner's aim for the website is to secure table bookings via the website to increase revenue. The website will do this by a) making the booking process quick and simple for someone who wishes to book; b) selling the dining experience (classy, stylish, upmarket, relaxed) to a site visitor who is yet to make a decision to book.
+
 ### User Stories:
 - As a potential customer, I want be impressed by the look and style of the website for the bar.
 

@@ -149,12 +149,16 @@ Carousel: I had trouble with the carousel in terms of rendering the correct prop
 
 About sections: I had trouble with the positioning of the about captions and images so that they remained inline with each other as they scaled down. I solved this using container-fluids and a host of media queries adjusting the padding and text and image sizes with scaling. The idea was to have each section 100vh for clarity and division, hence the button navigation. I think i got this idea to render adequately but I did choose to use less than 100vh for each because the header needed to be included in the browser view of the first section and excess of empty space between sections was not desirable.
 
+Deployment: Having deployed my project to GitHub pages, all pages, except the initial page loaded when I clicked the published link to site, where returning the 404 error "page does not exist". Having noticed that whenever I tried to navigate to a page, the section in the browser url which contained my repository name disappeared, i tried manually entering the url to include. E.g. /fizzo-bar-and-lounge-ucfd/about.html. This returned the page I was expecting so I realised that the page was indeed published, but must not have the correct file path pointing to it. I looked on Slack and found the suggestion to check my file paths were relative rather than absolute. Using a Youtube tutorial (see credits), I understood how I needed to change my file paths. This seeemed to be the problem and I updated every incorrect absolute file path to relative throughout my files. 
+
 -----
 
-## Deployments
-How I got my website up and running on Github Pages.
+## Deployment
+Having pushed my repository to GitHub, I published the project on GitHub pages. To do this, I check that all of my folders and files had been successfully pushed to GitHub. Then on the repository's settings, I went to section titled GitHub pages and selected branch:master/(root) then clicked save. Clicking on the published link provided by GitHub pages, I confirmed that the site was up and running. 
 
-How another developer can pull my repository from Github to clone my code to work on themselves.
+If another developer wanted to create a copy of my code to work on on their own the machine, they could do so with the following steps. On my repository's main page on GitHub, click the 'Code' green download button to the top right of the list of files. To clone using HTTPS, click 'Clone with HTTPS', and to use an SSH key, click "use SSH'. Then click the copy to clipboard icon on the right hand side of the link it produces. Opening the terminal, change the cwd to the location you want the cloned repository to appear in. Enter 'git clone' followed by the url copied to clipboard and press enter. The repository is now a local clone. 
+
+If a developer wanted to clone the repository to GitHub desktop, they would follow the same steps as above, but rather than choosing either HTTPS or SSH, they would click 'Open with GitHub desktop' and follow the prompts for cloning from there.
 
 ----
 
@@ -171,6 +175,8 @@ How another developer can pull my repository from Github to clone my code to wor
 [About images stack order](https://stackoverflow.com/questions/32170406/how-to-change-order-of-divs-on-smaller-screens): source helped my render the images as above captions on smaller screens but on the right hand side (i.e. underneath) the caption on larger screens. 
 
 [Styling next and prev icons on carousel](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel): targeting the Bootstrap class for next and prev items rendered no style change so this site suggested overriding the default icons with ones from font awesome and targeting those.
+
+[Understanding relative file paths to fix an initial deployment issue](https://www.youtube.com/watch?v=ephId3mYu9o): this tutorial helped me to understand the changes I needed to make to the various file paths I had throughout my site which made GitHub pages unable to publish it. 
 
 ### Media
 All images were obtained from [Unsplash](https://unsplash.com/).
